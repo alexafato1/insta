@@ -11,9 +11,9 @@ import firebase from "firebase";
     appId: "1:588424468429:web:57ed590ba8d10ccd08d684",
     measurementId: "G-VERCEPYD17"
   });
+
   const db = firebaseApp.firestore();
   const auth = firebase.auth();
   const storage = firebase.storage();
 
-  
-  export default { db, auth, storage };
+  export {db, auth, storage}; 
