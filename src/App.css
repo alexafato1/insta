@@ -5,12 +5,19 @@
 .app{
   background-color: #fafafa;
   height: 100vh;
-  margin: 0 auto;
+  
 }
 
 .app_posts {
   padding-top: 20px;
+  
 }
+
+.app_postRight{
+  margin-left: 20px;
+  
+}
+
 .app_header{
   background-color: white;
   padding: 20px;
