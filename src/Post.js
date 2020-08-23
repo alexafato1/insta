@@ -62,7 +62,8 @@ function Post({postId, user, username, caption, imageUrl}) {
               ))}
             </div>
 
-            <form className="post_commentBox">
+            {user && (
+              <form className="post_commentBox">
               <input
                className="post_input"
                type="text"
@@ -79,6 +80,9 @@ function Post({postId, user, username, caption, imageUrl}) {
                >post
                </button>
             </form>
+            )}
+
+           
             
         </div>
     )
